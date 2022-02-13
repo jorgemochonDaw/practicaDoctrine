@@ -1,0 +1,22 @@
+<?php
+
+/**
+* @Entity 
+* @Table(name="proveedor")
+**/
+class Proveedor
+{
+    /** 
+    * @Id @Column(type="integer",nullable="false") 
+    * @GeneratedValue 
+    **/
+    private $id;
+    /** 
+    * @Column(type="string") 
+    **/
+    private $nombre;
+    /** 
+    * @Column(type="string") 
+    **/
+    private $direccion;
+}

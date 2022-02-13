@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @Entity
+ * @Table(name="articulo")
+ **/
+class Articulo
+{
+    /**
+    * @Id @Column(type="integer",nullable="false")
+    * @GeneratedValue
+    **/
+    private $id;
+
+    /**
+    * @Column(type="string")
+    **/
+    private $nombre;
+
+    /**
+    * @Column(type="string")
+    **/
+    private $descripción;
+    /**
+    * @Column(type="integer")
+    **/
+    private $precio;
+    /**
+    * @Column(type="integer")
+    **/
+    private $cantidad;
+    /**
+    * @Column(type="string")
+    **/
+    private $proveedor;
+}

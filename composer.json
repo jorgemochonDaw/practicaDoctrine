@@ -1,0 +1,16 @@
+{
+    "name": "jorgemochonbernal/mochon-articulos",
+    "description": "mochon articulos",
+    "authors": [
+        {
+            "name": "jorgemochonDaw",
+            "email": "bernalmochonjorge@gmail.com"
+        }
+    ],
+    "require": {
+        "irap/autoloader": "^2.0",
+        "doctrine/orm": "^2.11",
+        "symfony/cache": "^6.0",
+        "doctrine/annotations": "^1.13"
+    }
+}
